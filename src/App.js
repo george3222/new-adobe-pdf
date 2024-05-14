@@ -1,9 +1,12 @@
 import './App.css';
+// import { Modal } from './modal';
+import { Top } from './top';
 
 function App() {
   return (
     <div className="App">
-      app
+      <Top />
+      {/* <Modal /> */}
     </div>
   );
 };
